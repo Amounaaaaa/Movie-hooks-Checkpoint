@@ -6,6 +6,16 @@
   height: 40vmin;
   pointer-events: none;
 }
+.cardBody{
+  height: 2000px;
+  background-color: rgb(236, 223, 223);
+  border: solid white 2px;
+  text-shadow: white 0px 0px 2px;
+  font-size: 17px;
+  background-size: 1900px;
+  background-repeat: no-repeat;
+
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
