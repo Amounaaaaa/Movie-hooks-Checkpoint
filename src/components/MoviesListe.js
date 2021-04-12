@@ -15,7 +15,9 @@ const MoviesListe = ({movie}) => {
            <Container style={{marginTop:'100px'}}>
            <Row>
            {movie.map(el=> 
+           <Col xl={4}>
             <MoviesCard movie={el} /> 
+            </Col>
             )
             }
            </Row >

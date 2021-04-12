@@ -41,7 +41,7 @@ function Add(props) {
       <Button  style={{    marginTop: '10px',
                            marginLeft: '1280px',
                            marginBottom: '-146px'}}
-      variant="primary" onClick={handleShow}>
+                           variant="primary" onClick={handleShow}>
       Add movie
       </Button>
 
